@@ -1438,7 +1438,7 @@ contract WoodyFrenzNFT is ERC721A, Ownable, IERC2981 {
     uint256 public royaltyPercent;
     // ======== PreSale =========
     address public contractOwner;
-    uint256 public saleMode = 0; // 0 - register, 1- presale 2- raffle sael 3 - public sale
+    uint256 public saleMode = 0; // 0 - register, 1- presale 2- raffle sale 3 - public sale
     mapping(address => uint8) public addressMintedBalance;
 
     // Merkle Roots
